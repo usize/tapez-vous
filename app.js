@@ -374,8 +374,8 @@ function renderWords() {
 }
 
 function updateStats() {
-  elements.errors.textContent = `Errors: ${state.errors}`;
-  elements.wordCount.textContent = `Word: ${state.wordIndex + 1} / ${
+  elements.errors.textContent = `Erreurs: ${state.errors}`;
+  elements.wordCount.textContent = `Mot: ${state.wordIndex + 1} / ${
     state.words.length
   }`;
   updateTimingDisplay();
